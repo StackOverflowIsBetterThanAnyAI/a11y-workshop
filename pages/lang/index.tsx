@@ -56,7 +56,7 @@ const Lang: NextPage = () => {
           </AnchorLink>
         </Box>
       </section>
-      {/* <section>
+      <section>
         <Text as="h2">Language mix</Text>
         <Box marginBottom="4">
           I believe that in German, when you want to greet someone, you can say,{" "}
@@ -68,7 +68,7 @@ const Lang: NextPage = () => {
           I believe that in German, when you don't know the other person, you
           can say, <b>Hallo, wie geht es dir?</b>
         </Box>
-      </section> */}
+      </section>
     </PageLayoutContent>
   )
 }
