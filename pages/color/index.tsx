@@ -1,5 +1,5 @@
 import type { NextPage } from "next"
-import React, { useState } from "react"
+import React from "react"
 import { PageLayoutContent } from "../../src/components/content"
 import { PageHeading } from "../../src/components/core/headings"
 import Text from "../../src/components/core/Text"
@@ -63,9 +63,6 @@ const GoodButton = styled(Button)`
 `
 
 const ColorContrast: NextPage = () => {
-  const [showMessage, setShowMessage] = useState(false)
-  const [showAlert, setShowAlert] = useState(false)
-
   return (
     <PageLayoutContent>
       <PageHeading>Color</PageHeading>
