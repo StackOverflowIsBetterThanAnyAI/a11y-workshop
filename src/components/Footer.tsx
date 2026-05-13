@@ -17,25 +17,13 @@ const FooterLink = styled.a`
   color: #ffffff;
   margin-right: 20px;
   box-shadow: none;
-  font-family: Mulish, -apple-system, BlinkMacSystemFont, Open Sans, sans-serif !important;
+  font-family:
+    Mulish,
+    -apple-system,
+    BlinkMacSystemFont,
+    Open Sans,
+    sans-serif !important;
 
-  :hover {
-    box-shadow: 0 2px 0 0 #ffffff;
-  }
-  :focus {
-    box-shadow: none;
-    outline: 3px solid #ffffff;
-    outline-offset: 0.5rem;
-  }
-  @media screen and (max-width: 700px) {
-    margin-left: 0px;
-  }
-`
-
-const FooterAnchorLink = styled.a`
-  color: #ffffff;
-  margin-right: 20px;
-  box-shadow: none;
   :hover {
     box-shadow: 0 2px 0 0 #ffffff;
   }
@@ -101,22 +89,22 @@ export const Footer: FunctionComponent = () => {
             width="100%"
             height="50px"
           >
-            <Link href="/" passHref>
+            <Link href="/a" passHref>
               <FooterIconLink target="_blank" rel="noopener" aria-label="">
                 <FooterIcon src="/images/twitter.svg" alt="Twitter logo" />
               </FooterIconLink>
             </Link>
-            <Link href="/" passHref>
+            <Link href="/b" passHref>
               <FooterIconLink target="_blank" rel="noopener" aria-label="">
                 <FooterIcon src="/images/instagram.svg" alt="Instagram logo" />
               </FooterIconLink>
             </Link>
-            <Link href="/" passHref>
+            <Link href="/c" passHref>
               <FooterIconLink target="_blank" rel="noopener" aria-label="">
                 <FooterIcon src="/images/github.svg" alt="GitHub logo" />
               </FooterIconLink>
             </Link>
-            <Link href="/" passHref>
+            <Link href="/d" passHref>
               <FooterIconLink target="_blank" rel="noopener" aria-label="">
                 <FooterIcon src="/images/linkedin.svg" alt="Linkedin logo" />
               </FooterIconLink>
