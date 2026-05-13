@@ -40,9 +40,9 @@ const FooterLink = styled.a`
 const FooterIconLink = styled.a`
   margin-left: 20px;
   display: flex;
+  color: #ffffff;
   text-decoration: none;
   box-shadow: none;
-  width: 25px;
   :hover,
   :focus {
     box-shadow: none;
@@ -89,24 +89,14 @@ export const Footer: FunctionComponent = () => {
             width="100%"
             height="50px"
           >
-            <Link href="/a" passHref>
+            <Link href="/" passHref>
+              <FooterIconLink target="_blank" rel="noopener" aria-label="">
+                Twitter
+              </FooterIconLink>
+            </Link>
+            <Link href="/" passHref>
               <FooterIconLink target="_blank" rel="noopener" aria-label="">
                 <FooterIcon src="/images/twitter.svg" alt="Twitter logo" />
-              </FooterIconLink>
-            </Link>
-            <Link href="/b" passHref>
-              <FooterIconLink target="_blank" rel="noopener" aria-label="">
-                <FooterIcon src="/images/instagram.svg" alt="Instagram logo" />
-              </FooterIconLink>
-            </Link>
-            <Link href="/c" passHref>
-              <FooterIconLink target="_blank" rel="noopener" aria-label="">
-                <FooterIcon src="/images/github.svg" alt="GitHub logo" />
-              </FooterIconLink>
-            </Link>
-            <Link href="/d" passHref>
-              <FooterIconLink target="_blank" rel="noopener" aria-label="">
-                <FooterIcon src="/images/linkedin.svg" alt="Linkedin logo" />
               </FooterIconLink>
             </Link>
             <Link href={`mailto:bolonio85@gmail.com`} passHref>
