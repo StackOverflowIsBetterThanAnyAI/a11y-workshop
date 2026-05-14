@@ -25,4 +25,11 @@
 - 1x no accessible name for button (4.1.2 - Name, Role, Value)
 - 1x same id is assigned twice (1.3.1 - Info and Relationships)
 - 4x label is not connected with form input field (1.3.1 - Info and Relationships)
-- 1x radio buttons are not contained in a fieldset
+- 1x radio buttons are not contained in a fieldset (1.3.1 - Info and Relationships)
+
+## Buttons
+
+- 1x button cannot be reached by keyboard (2.1.1 - Keyboard)
+- 1x button cannot be activated by keyboard (2.1.1 - Keyboard)
+- 2x button is styled as button, behaves as button but is not recognized as button (4.1.2 - Name, Role, Value)
+- 1x disabled element is not recognized as disabled (4.1.2 - Name, Role, Value)
