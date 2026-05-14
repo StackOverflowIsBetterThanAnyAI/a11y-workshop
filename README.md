@@ -18,3 +18,10 @@
 
 - 1x image misses alt attribute (1.1.1 - Non-Text Content)
 - 1x focus indicator is placed behind another element (2.4.11 - Focus Appearance)
+
+## Aria
+
+- 1x aria-label does not contain visible text content of link (2.5.3 - Label in Name)
+- 1x no accessible name for button (4.1.2 - Name, Role, Value)
+- 1x same id is assigned twice (1.3.1 - Info and Relationships)
+- 4x label is not connected with form input field (1.3.1 - Info and Relationships)

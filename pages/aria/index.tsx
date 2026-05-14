@@ -7,11 +7,6 @@ import Box from "../../src/components/core/Box"
 import { AnchorLink } from "../../src/components/core/AnchorLink"
 import styled from "styled-components"
 
-const LangImage = styled.img`
-  width: 400px;
-  margin-right: 32px;
-`
-
 const Button = styled.button`
   background-color: #23333d;
   border-radius: 5px;
@@ -55,10 +50,10 @@ const Aria: NextPage = () => {
         </Box>
         <Box marginBottom="4">
           <AnchorLink
-            href="tel:+766612344321"
+            href="tel:+766612344322"
             aria-label="Call the support team"
           >
-            +766612344321
+            +766612344322
           </AnchorLink>
         </Box>
       </section>
