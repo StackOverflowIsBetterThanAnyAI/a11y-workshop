@@ -37,7 +37,7 @@ const Alt: NextPage = () => {
             />
           </AnchorLink>
 
-          <AnchorLink lang="de" href="#">
+          <AnchorLink lang="de" href="/">
             <LangImage
               src="https://t3.ftcdn.net/jpg/02/97/29/06/360_F_297290656_2VreOHvYSCzMaFoItvVGLSOvfXJNR4XJ.jpg"
               alt="Eine Person, die einen Computer benutzt"
