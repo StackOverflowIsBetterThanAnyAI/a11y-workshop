@@ -1,5 +1,9 @@
 # Accessibility in Web Development (a11y-workshop)
 
+## Main
+
+- 1x document has no heading
+
 ## Footer
 
 - 1x combine adjacent image and text links for same resource (1.1.1 - Non-Text Content)
