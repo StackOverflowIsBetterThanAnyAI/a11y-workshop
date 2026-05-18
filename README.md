@@ -3,6 +3,7 @@
 ## Main
 
 - 1x document has no heading (1.3.1 - Info and Relationships)
+- 6x text is not contained in a landmark (1.3.1 - Info and Relationships)
 
 ## Footer
 
