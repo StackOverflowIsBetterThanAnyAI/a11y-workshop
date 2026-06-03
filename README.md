@@ -10,7 +10,9 @@
 - 2x text is not contained in a landmark (1.3.1 - Info and Relationships)
 - 1x combine adjacent image and text links for same resource (1.1.1 - Non-Text Content)
 - 1x aria-label does not contain visible text content of link (2.5.3 - Label in Name)
-- 1x bad alt text (1.1.1 - Non-Text Content)
+- 3x bad alt text (1.1.1 - Non-Text Content)
+- 1x insufficient color contrast on hover (1.4.3 - Contrast (Minimum))
+- 1x insufficient color contrast on focus (1.4.3 - Contrast (Minimum))
 
 ## Main
 
