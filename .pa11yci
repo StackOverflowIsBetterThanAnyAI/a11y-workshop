@@ -1,0 +1,21 @@
+{
+    "defaults": {
+        "timeout": 50000,
+        "standard": "WCAG2AA",
+        "chromeLaunchConfig": {
+            "args": [
+                "--no-sandbox",
+                "--disable-setuid-sandbox"
+            ]
+        }
+    },
+    "urls": [
+        "http://localhost:3000",
+        "http://localhost:3000/lang",
+        "http://localhost:3000/color",
+        "http://localhost:3000/alt",
+        "http://localhost:3000/aria",
+        "http://localhost:3000/buttons",
+        "http://localhost:3000/liveregions"
+    ]
+}
